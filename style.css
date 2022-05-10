@@ -79,6 +79,7 @@ body {
     text-align: center;
     display:flex;
     justify-content: center;
+    height: 300px;
 }
 
 .box-information .layer{
@@ -105,4 +106,63 @@ body {
 .box-information .square-pic{
     border: 1px solid black;
     height:100px;
+}
+
+.box-quotation{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+
+.box-quotation .layer{
+    width: 60%;
+}
+
+.box-quotation .quotation{
+    text-align:justify;
+}
+
+.box-quotation .signature{
+    text-align: right;
+    font-weight: bold;
+}
+
+.box-action{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+
+.box-action .layer{
+    width:80%;
+    background-color: #3882F8;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    align-content: baseline;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+
+.box-action .action .title{
+    font-size: large;
+}
+
+.box-action .action .description{
+    font-size:small;
+}
+
+.box-copyright{
+    background-color: #1F2937;
+    height:100px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
